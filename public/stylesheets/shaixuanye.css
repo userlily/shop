@@ -1,0 +1,258 @@
+
+
+/*--------------------对main.css一些调整-------------------------*/
+
+#section1{
+    margin-top: 18px;
+}
+header  .nav-3 #main{
+    display: none;
+}
+/*---------------------------------------------------------------*/
+#xiang_section1{
+    margin-top: 18px;
+}
+
+
+/*---------------------------------------------------------------*/
+#xiang_section1 >.left{
+
+    height: 1060px;
+    width: 190px;
+    border: 1px solid #ccc;
+}
+#xiang_section1 >.left .up{
+
+    background-color: #f3f3f3;
+}
+#xiang_section1 >.left > .up  h5{
+
+    text-align: center;
+    font-weight: 500;
+
+}
+#xiang_section1 >.left > .up >ul > li{
+
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+
+}
+#xiang_section1 >.left > .up >ul > li:last-child{
+
+
+    border-bottom: 0px solid #ccc;
+
+}
+#xiang_section1 >.left > .up >ul > li a{
+
+    padding-left: 20px;
+    font-size: 12px;
+    color: #0f0f0f;
+
+
+}
+#xiang_section1 >.left > .up >ul > li p{
+
+    padding: 4px 0 ;
+    font-weight: 600;
+
+
+}
+#xiang_section1 >.left > .up >ul > li a:hover{
+
+   text-decoration: none;
+
+}
+
+/*---------------------------------------------------------------*/
+
+#xiang_section1 >.left .down{
+
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+
+}
+#xiang_section1 >.left .down  .left {
+
+         width: 60px;
+         height: 75px;
+
+}
+#xiang_section1 >.left .down  .right {
+    width: 80px;
+    font-size: 12px;
+}
+#xiang_section1 >.left .down  .right  p{
+  color: #888;
+}
+
+
+
+/*---------------------------------------------------------------*/
+
+
+#xiang_section1 > .right {
+    width: 770px;
+
+}
+#xiang_section1 > .right >ul >li  .active{
+    background-color: #4593fd;
+    color: #fff;
+}
+#xiang_section1 > .right li {
+    padding: 10px ;
+     border-bottom: 1px solid #ccc;
+    font-size: 12px;
+    color: #1d7ad9;
+    line-height: 20px;
+ }
+#xiang_section1 > .right li >span:nth-child(1) {
+    width: 113px;
+    display: inline-block;
+    text-align: center;
+   padding: 2px 20px;
+    color: black;
+}
+#xiang_section1 > .right li >span:nth-child(2) {
+    display: inline-block;
+    text-align: left;
+
+}
+#xiang_section1 > .right li >span:nth-child(3) {
+    margin-left: 80px;
+    display: inline-block;
+    text-align: left;
+
+}
+
+/*---------------------------------------------------------------*/
+
+
+#xiang_section1 > .right li i {
+
+    font-style: normal;
+    display: inline-block;
+    margin: 0 ;
+}
+#xiang_section1 > .right  .right{
+
+    width: 500px;
+    margin-right: 100px;
+
+}
+#xiang_section1 > .right  .right >div >span{
+
+    display: inline-block;
+    margin-left: 40px;
+}
+
+/*---------------------------------------------------------------*/
+
+#xiang_section1 .lee{
+    margin-top: 40px;
+    padding: 20px;
+}
+#xiang_section1 .lee > .clearfix  >.left{
+
+    width: 33%;
+    padding: 10px;
+    margin: 0 auto;
+    height: 320px;
+}
+#xiang_section1 .lee > .clearfix  > .left >a >img{
+
+  display: block;
+    width:202px;
+    height: 221px;
+}
+#xiang_section1 .lee > .clearfix   > .left >p >a{
+
+    font-size: 12px;
+    font-weight: 100;
+    color: black;
+}
+#xiang_section1 .lee > .clearfix  > .left > p >a:hover{
+
+    color: black;
+    text-decoration: none;
+}
+#xiang_section1 .lee > .clearfix  > .left > p >span:nth-child(1){
+
+    font-size: 12px;
+    font-weight: 100;
+     color: #d70000;
+}
+#xiang_section1 .lee > .clearfix  > .left > p >span:nth-child(2) >a{
+
+    font-size: 12px;
+    font-weight: 100;
+
+}
+#xiang_section1 .lee > .clearfix  > .left > p >span:nth-child(2) >a:hover{
+
+text-decoration: none;
+
+}
+#xiang_section1 .lee > .clearfix  > .left > a{
+
+    color: #1d7ad9;
+    font-size: 12px;
+    font-weight: 100;
+}
+#xiang_section1 .lee > .clearfix  > .left > a:hover{
+
+    color: #29d9d4;
+    text-decoration: none;
+}
+
+
+
+/*-------------------------------- 分页-------------------------------*/
+
+#xiang_section1 .lee  ul  li{
+    margin-top: 60px;
+    padding: 0;
+    border: 1px #ccc solid;
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+}
+#xiang_section1 .lee  ul  .dian{
+
+    padding: 1px 8px;
+    border: none;
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    color: #333;
+
+
+}
+#xiang_section1 .lee  ul  li a{
+
+    padding: 1px 12px;
+  color: #333;
+}
+#xiang_section1 .lee  ul  li:last-child{
+
+   padding: 0px;
+}
+#xiang_section1 .lee  ul  li input:nth-child(1){
+
+    width: 40px;
+    height: 20px;
+    border: solid 1px #ccc;
+}
+#xiang_section1 .lee  ul  li input:nth-child(2){
+
+    border: 1px solid #ccc;
+
+    font-size: 12px;
+    background-color: #eee;
+}
+
+
+
+

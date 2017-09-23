@@ -1,0 +1,109 @@
+
+
+/*--------------------对main.css一些调整-------------------------*/
+
+#section1{
+    margin-top: 18px;
+}
+header  .nav-3 #main{
+    display: none;
+}
+/*---------------------------------------------------------------*/
+
+#section1 .le{
+    width: 180px;
+    height: 838px;
+    background-color: #f3f3f3;
+    padding: 4px 0 ;
+    border: solid 1px #ccc;
+}
+#section1 .le >ul >li:first-child{
+    padding: 4px;
+     text-align: center;
+     border-bottom: solid 1px #ccc ;
+    font-size: 16px;
+    font-weight: 500;
+}
+#section1 .le >ul >li{
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: dashed 1px #ccc ;
+
+}
+#section1 .le >ul >li:last-child{
+
+    border-bottom: dashed 0px #ccc ;
+
+}
+#section1 .le >ul >li tr:first-child td:first-child{
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+#section1 .le >ul >li tr td:first-child{
+    text-align: left;
+}
+#section1 .le >ul >li tr td:nth-child(2){
+
+    text-align: left;
+    padding-left:20px;
+}
+#section1 .le >ul >li tr  a{
+    font-size: 12px;
+    font-weight: 100;
+    color: #000;
+}
+#section1 .le >ul >li tr  a:hover{
+    text-decoration: none;
+}
+
+/*---------------------------------------------------------------*/
+#section1  .lee > h3{
+    padding-top: 20px;
+    border-bottom:1px solid #ccc ;
+}
+#section1  .lee > h3 >span{
+    display: inline-block;
+    width: 150px;
+    border-bottom:2px solid #096dba ;
+}
+#section1  .lee > div >div >div{
+    padding: 16px 16px;
+    width: 202px;
+    height: 270px;
+    float: left;
+}
+#section1  .lee > div >div >div img{
+
+    height: 140px;
+    width: 168px;
+    display: block;
+
+}
+#section1  .lee > div >div >div p{
+
+    color: #000000;
+    padding-top: 4px ;
+    padding-bottom: 10px;
+
+}
+#section1  .lee > div >div >div >a{
+
+    text-decoration: none;
+
+}
+#section1  .lee > div >div >div >span{
+
+   color: #d4105a;
+
+}
+#section1  .lee > div >div >div>div >a{
+
+    color: #1b6d85;
+
+}
+#section1  .lee > div >div >div>div >span{
+
+    color: #f6a135;
+
+}

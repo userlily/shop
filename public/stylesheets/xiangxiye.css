@@ -1,0 +1,499 @@
+/*--------------------对main.css一些调整-------------------------*/
+
+#section1{
+    margin-top: 18px;
+}
+header  .nav-3 #main{
+    display: none;
+}
+body{
+    background-color: #f0f0f0;
+}
+.active{ border: 1px solid #1d7ad9 !important;}
+
+/*---------------------------------------------*/
+
+
+
+#xiangxiye {
+
+    margin-top: 20px;
+}
+#xiangxiye  .weizhi  {
+
+     color: #333;
+    font-size: 12px;
+    font-family: "宋体";
+
+}
+#xiangxiye  .weizhi > a  {
+
+    color: #222;
+
+}
+#xiangxiye  .weizhi > a:hover {
+
+    color: #444;
+    text-decoration: none;
+
+}
+
+/*---------------------------------------------*/
+#xiangxiye >.clearfix{
+    margin-top: 10px;
+    border: 1px #ccc solid;
+    background-color: #fff;
+}
+#xiangxiye > div >.left:nth-child(1){
+    padding: 20px 10px;
+    width: 300px;
+
+}
+#xiangxiye > div >.left:nth-child(1) > img{
+
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: 300px;
+
+}
+#xiangxiye > div >.left:nth-child(1) > div{
+    text-align: center;
+    margin-top: 10px;
+}
+#xiangxiye > div >.left:nth-child(1) > div>img{
+    display: inline-block;
+    width: 46px;
+    height: 60px;
+    border: 1px #ccc solid;
+    margin-left: -1px;
+}
+#xiangxiye > div >.left:nth-child(1) > div > .active{
+
+    border: 1px #317ee7 solid;
+    position: relative;
+
+}
+
+/*---------------------------------------------*/
+
+#xiangxiye > div >.left:nth-child(2){
+    padding: 20px 20px 0 20px;
+    width: 690px;
+    border-left: 1px #ccc solid;
+}
+#xiangxiye > div >.left:nth-child(2) >div >p:nth-child(1){
+    font-size: 16px;
+    text-align: left;
+    font-family: "微软雅黑";
+
+}
+#xiangxiye > div >.left:nth-child(2) >div >p:nth-child(2){
+
+padding: 10px 0 ;
+    font-size: 12px;
+    text-align: left;
+    font-family: "新宋体";
+
+}
+#xiangxiye > div >.left:nth-child(2) >div >p:nth-child(2) >span{
+
+    color: #d70000;
+    font-size: 22px;
+    font-family: "微软雅黑";
+
+}
+#xiangxiye > div >.left:nth-child(2) >div >p:nth-child(3){
+
+    padding: 10px 0 ;
+    font-size: 12px;
+    text-align: left;
+    font-family: "新宋体";
+
+}
+
+#xiangxiye > div >.left:nth-child(2) >div > div{
+
+
+   background-color: #f2f2f2;
+    padding: 10px;
+}
+#xiangxiye > div >.left:nth-child(2) >div > div > div{
+
+padding: 10px 0;
+
+}
+#xiangxiye > div >.left:nth-child(2) >div > div span{
+
+    font-family: "新宋体";
+    font-size: 12px;
+}
+#xiangxiye > div >.left:nth-child(2) >div > div select{
+
+    font-family: "新宋体";
+    padding: 4px 2px;
+    font-size: 12px;
+}
+#xiangxiye > div >.left:nth-child(2) >div > div >div >span:nth-child(1){
+
+        display: inline-block;
+         width: 80px;
+}
+#xiangxiye > div >.left:nth-child(2) >div > div button{
+
+    font-family: "新宋体";
+    padding: 4px 12px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 10px;
+    border: solid 1px #cccccc;
+    background-color: #fff;
+}
+#xiangxiye > div >.left:nth-child(2) >div > div >div >div {
+
+    width: 546px;
+    float:right;
+
+}
+#xiangxiye > div >.left:nth-child(2) >div > div >div >div > button{
+
+
+
+    font-family: "新宋体";
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 6px 10px 6px 0;
+    border: solid 1px #cccccc;
+    background-color: #fff;
+
+}
+
+/*---------------------------------------------*/
+#xiangxiye > div >.left:nth-child(2)  .num  input{
+
+    margin: 0 ;
+    padding: 0;
+    width: 60px;
+    height: 28px;
+    border: 1px solid #888;
+    text-align: center;
+}
+#xiangxiye > div >.left:nth-child(2)  .num  i{
+    font-style: normal;
+    color: #fc8900;
+}
+#xiangxiye > div >.left:nth-child(2) >div .p4{
+
+    font-size: 12px;
+    text-align: left;
+    font-family: "宋体";
+    font-weight: 600;
+    padding: 20px 0;
+
+}
+#xiangxiye > div >.left:nth-child(2) >div .p4 span{
+    color: #1d7ad9;
+}
+#xiangxiye > div >.left:nth-child(2) > .bt >div {
+    background-color: #fff;
+}
+#xiangxiye > div >.left:nth-child(2) > .bt >div >div{
+    float: left;
+    padding: 20px 50px;
+    background-color: #fff;
+
+}
+#xiangxiye > div >.left:nth-child(2) > .bt >div >div:nth-child(1){
+    border-right: solid 1px #ccc;
+
+
+}
+#xiangxiye > div >.left:nth-child(2) > .bt >div>div>button{
+
+    font-size: 20px;
+    font-family: "微软雅黑";
+    height: 50px;
+    width: 185px;
+    background-color: #fc8800;
+    color: #fff;
+
+
+
+}
+
+
+
+/*---------------------------------------------*/
+
+#xiangxiye2{
+    margin-top: 10px ;
+  background-color: #fff;
+    border: 1px solid #ccc;
+}
+#xiangxiye2 > .clearfix{
+    padding: 10px;
+
+}
+#xiangxiye2 >div >a{
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    color:#000000 ;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2 ;
+}
+#xiangxiye2 >div >a:hover{
+   text-decoration: none;
+}
+#xiangxiye2 >div >.active{
+    color:#fff ;
+    background-color: #0479ca;
+    border: 1px solid #0479ca;
+}
+#xiangxiye2 >.text {
+    padding: 30px 140px;
+    text-align: right;
+
+}
+#xiangxiye2 >.text >img {
+    width: 650px;
+    height: 190px;
+}
+#xiangxiye2 >div >p {
+         border-bottom: 1px solid #ccc;
+         color: #333;
+}
+#xiangxiye2 >div >p:nth-child(1) {
+    width: 8%;
+    color:#1d7ad9 ;
+    font-size: 16px;
+    line-height: 20px;
+    border-bottom: 1px solid #1d7ad9;
+
+}
+#xiangxiye2 >div >p:nth-child(2) {
+    padding-left: 10px;
+    line-height: 20px;
+    text-align: left;
+    width: 92%;
+
+}
+#xiangxiye2 >div >p:nth-child(3) {
+    margin-top: 20px;
+    padding: 20px 0;
+    font-size: 14px;
+    font-family: "宋体";
+    line-height: 20px;
+    border: none;
+}
+#xiangxiye2 >div >div {
+
+     padding: 0 20px;
+ }
+#xiangxiye2 >div >div >img{
+
+     width: 940px;
+     height: auto;
+}
+
+/*---------------------------------------------*/
+
+#xiangqiye3{
+    margin-top: 10px ;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+#xiangqiye3 > .clearfix{
+    padding: 10px;
+
+}
+#xiangqiye3 > div > p{
+    padding: 10px;
+    font-size: 14px;
+    font-family: "新宋体";
+}
+#xiangqiye3 > div > div> .left {
+    padding: 10px;
+    height: 70px;
+    font-size: 14px;
+    line-height: 50px;
+    position: relative;
+}
+#xiangqiye3 > div > div> .left > span{
+
+    font-size: 50px;
+    line-height: 50px;
+    height: 50px;
+    color: #ff8f00;
+    font-family: "新宋体";
+}
+#xiangqiye3 > div > div> .left >div >span{
+
+    display: inline-block;
+    width: 100px;
+    background-color: #bdbdbd;
+    color: #fff;
+    font-family: "新宋体";
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+}
+#xiangqiye3 .fen {
+    line-height: 14px;
+    text-align: center;
+    color: #bdbdbd;
+    position: absolute;
+    top :3px;
+    left: 464px;
+}
+#xiangqiye3 .fen > div >span{
+
+    color: #fff;
+    padding: 0 4px;
+    line-height: 14px;
+    background-color: #bdbdbd;
+    text-align: center;
+    border: 2px solid #bdbdbd;
+}
+
+
+#xiangqiye3 > .navv{
+    background-color: #f2f2f2;
+    padding: 8px 20px;
+    font-size: 12px;
+}
+#xiangqiye3 > .navv a{
+    color: black;
+
+}
+#xiangqiye3 > .navv >span{
+    padding-right: 50px;
+
+}
+#xiangqiye3 > .navv a:hover{
+
+    text-decoration: none;
+
+}
+
+#xiangqiye3 > .navv > div{
+
+    padding: 20px;
+
+}
+#xiangqiye3 ul {
+    padding: 20px;
+}
+#xiangqiye3 ul li{
+    margin-bottom: 34px;
+}
+#xiangqiye3 ul li>div:nth-child(1){
+    width: 140px;
+}
+#xiangqiye3 > div > ul  li>div:nth-child(1) >  div,p{
+
+    font-family: "新宋体";
+    color: #888;
+    font-size: 12px;
+    text-align: center;
+}
+
+#xiangqiye3 ul li>div:nth-child(1) img{
+    width: 90px;
+    height: 75px;
+}
+#xiangqiye3 ul li>div:nth-child(2)  {
+    padding: 10px;
+    width: 600px;
+}
+#xiangqiye3 ul li>div:nth-child(2) >p {
+   text-align: left;
+}
+#xiangqiye3 ul li>div:nth-child(2) >p >span {
+
+    color: #f6a135;
+}
+#xiangqiye3 ul li>div:nth-child(2) >p:nth-child(1) {
+
+   font-weight: 700;
+}
+#xiangqiye3 ul li>div:nth-child(2) >p:nth-child(2) {
+    font-family: "新宋体";
+    color: #666;
+
+}
+#xiangqiye3 ul li>div:nth-child(2) >p:nth-child(3) {
+
+    color: #1d7ad9;
+
+}
+#xiangqiye3 ul li>div:nth-child(3) >p {
+    font-family: "新宋体";
+    color: #888;
+}
+
+
+
+
+
+
+
+
+#xiangqiye3 > #fenye  ul  li{
+    margin-top: 60px;
+    padding: 0;
+    border: 1px #ccc solid;
+    float: left;
+    list-style: none;
+    margin-left: 4px;
+}
+#xiangqiye3 > #fenye ul  .dian{
+
+    padding: 1px 8px;
+    border: none;
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    color: #333;
+
+
+}
+#xiangqiye3 > #fenye ul  li a{
+
+    padding: 1px 8px;
+    color: #333;
+}
+#xiangqiye3 > #fenye ul  li:last-child{
+
+    padding: 0px;
+}
+#xiangqiye3 > #fenye  ul  li input:nth-child(1){
+
+    width: 40px;
+    height: 20px;
+    border: solid 1px #ccc;
+}
+#xiangqiye3 > #fenye ul  li input:nth-child(2){
+
+    border: 1px solid #ccc;
+
+    font-size: 12px;
+    background-color: #eee;
+}
+/* 放大镜*/
+.con-fangDaIMg{position:relative;}
+.con-fangDaIMg > img{width:280px;height:300px}
+.magnifyingBegin{width:100px;height:100px;left:0;top:0;background-color:#454545;opacity:0.5;position:absolute;cursor:move;display:none}
+.magnifyingShow{width:280px;height:300px;display:none;position:absolute;right:-300px;top:0;overflow:hidden;background-color:#454545}
+.magnifyingShow > img{width:900px;height:1350px;margin-left:0;margin-top:0}
+.con-FangDa-ImgList{list-style:none}
+.con-FangDa-ImgList > li{width:50px;height:50px;float:left;margin:4px 0 0 4px;cursor:pointer;border:2px solid #454545;background-color:#454545}
+.con-FangDa-ImgList > li:first-child{margin-left:0}
+.con-FangDa-ImgList > li > img{width:100%;height:100%}
+.con-FangDa-ImgList > .active{border-color:red}
+

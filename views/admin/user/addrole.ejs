@@ -1,0 +1,22 @@
+<%- include("../public/head.ejs") %>
+  <div class="link fl"><a href="/admin">后台首页</a></div>
+<%- include("../public/head-nav.ejs") %>
+  <div class="main">
+    <!--右侧内容-->
+    <div class="cont">
+      <div class="title">后台管理</div>
+
+
+      <div class="pad"  >
+            <form action="/admin/user/addrole" method="post">
+              <div class="form-group">
+                <label for="name">角色名</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="用户名">
+              </div>
+              <button type="submit" class="btn btn-default">增加</button>
+            </form>
+      </div>
+
+    </div>
+  </div>
+<%- include("../public/foot.ejs") %>

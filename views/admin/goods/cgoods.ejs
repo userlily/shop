@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>-.-</title>
+  <link href="/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="/admin/style/backstage.css">
+  <link rel="stylesheet" href="/admin/style/cgoods.css">
+
+
+</head>
+
+<body>
+<div class="head">
+  <div class="logo fl"><a href="#"></a></div>
+  <h3 class="head_text fr">电子商务后台管理系统</h3>
+</div>
+<div class="operation_user clearfix">
+
+  <div class="link fl"><a href="/admin">后台首页</a></div>
+  <%- include("../public/head-nav.ejs") %>
+    <div class="main">
+      <!--右侧内容-->
+      <div class="cont">
+        <div class="title">后台管理</div>
+
+
+        <div class="pad"  >
+
+          <div class="clearfix" id="contain">
+
+            <div class="fl myform1" id="myform">
+
+              <form action="/admin/goods/addcgoods?pid=0" method="post">
+                    <input type="text" name="name" placeholder="请输入分类名">
+                    <input type="submit" value="增加分类">
+              </form>
+
+
+
+              <h4>商品分类</h4>
+              <ul>
+                <%  for(var i=0 ;i<data.length;i++){ %>
+                  <div class="clearfix">
+                      <li class="fl" tar=1 value="<%=data[i].id %>" ><%=data[i].cname %></li>
+                      <span class="dele" url="/admin/goods/delecgoods?id=<%=data[i].id %>">删除</span>
+                  </div>
+                <% } %>
+              </ul>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+  <%- include("../public/foot.ejs") %>
+
+  <script src="/admin/js/cgoods.js"></script>

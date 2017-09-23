@@ -1,0 +1,35 @@
+<%- include("../public/head.ejs") %>
+  <div class="link fl"><a href="/admin">后台首页</a></div>
+<%- include("../public/head-nav.ejs") %>
+  <div class="main">
+    <!--右侧内容-->
+    <div class="cont">
+      <div class="title">后台管理</div>
+
+
+      <div class="pad"  >
+
+        <table>
+          <tr>
+            <td>用户名</td>
+            <td></td>
+            <td>操作</td>
+
+          </tr>
+          <%  for(var i=0 ;i<data.length;i++){ %>
+          <tr>
+            <td><%= data[i].name %></td>
+            <td> <a href="/admin/user/dele?id=<%=data[i].id%>" > 删除 </a></td>
+            <td><a href="/admin/user/updata?id=<%=data[i].id%>">修改</a></td>
+            <td><a href="/admin/user/adminaddrole?id=<%=data[i].id%>">添加角色</a></td>
+          </tr>
+            <%  } %>
+        </table>
+
+
+
+      </div>
+
+    </div>
+  </div>
+<%- include("../public/foot.ejs") %>

@@ -1,0 +1,77 @@
+.myform1{
+
+    width:160px;
+    border: 1px solid #ccc;
+    height:200px;
+    overflow-y: scroll;
+}
+.myform1 li:nth-child(2n+1){
+    background-color: #ccc;
+}
+
+.myform1 li:hover {
+    background-color: #dca7a7;
+}
+.active{
+    color: red;
+}
+
+
+.goodslist  > ul  >li {
+    float: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+.goodslist  > ul  >li:nth-child(2n) {
+    background-color: #ccc;
+
+}
+
+.goodslist{
+    padding:  20px 0;
+    margin-top: 40px;
+}
+
+
+#fenye  ul  li{
+    margin-top: 60px;
+    padding: 0;
+    border: 1px #ccc solid;
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+}
+#fenye   ul  .dian{
+
+    padding: 1px 8px;
+    border: none;
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    color: #333;
+
+
+}
+#fenye   ul  li a{
+
+    padding: 1px 12px;
+    color: #333;
+}
+#fenye  ul  li:last-child{
+
+    padding: 0px;
+}
+#fenye   ul  li input:nth-child(1){
+
+    width: 40px;
+    height: 20px;
+    border: solid 1px #ccc;
+}
+#fenye   ul  li input:nth-child(2){
+
+    border: 1px solid #ccc;
+
+    font-size: 12px;
+    background-color: #eee;
+}

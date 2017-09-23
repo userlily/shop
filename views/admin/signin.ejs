@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>登录</title>
+  <style>
+    div{
+      padding: 100px;
+      width: 50%;
+      margin: auto;
+    }
+    ul{
+      list-style: none;
+    }
+    li{
+      padding: 10px ;
+    }
+  </style>
+</head>
+
+<body>
+
+
+    <div>
+
+      <form action="/admin"  method="post">
+
+        <ul>
+          <li>
+            <label for="name">用户名：</label>
+            <input type="text" name="name" id="name" placeholder="请输入用户名">
+          </li>
+          <li>
+            <label for="password"> 密   码 ：</label>
+            <input type="password" name="password" id="password" placeholder="请输入密码">
+          </li>
+          <li>
+            <input type="submit" value="登录">
+          </li>
+        </ul>
+
+      </form>
+
+      <div>
+        <%= mes %>
+      </div>
+
+    </div>
+
+
+</body>
+</html>

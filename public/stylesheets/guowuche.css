@@ -1,0 +1,91 @@
+
+
+
+
+
+
+header > .nav-logo  .right  {
+
+     margin: 0 auto;
+    padding: 20px 0;
+
+}
+header > .nav-logo  .right > .rr {
+
+
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #8dbdeb;
+    float: left;
+
+}
+header > .nav-logo  .right > .rr:nth-child(1) {
+
+   margin-left: 26px;
+}
+
+header > .nav-logo  .right > .zz {
+
+    margin-top: 10px;
+    width: 160px;
+    height: 4px;
+    background-color: #8dbdeb;
+    float: left;
+
+}
+header > .nav-logo  .right > div  span {
+
+            color: #fff;
+             margin-right: 80px;
+
+}
+header > .nav-logo  .right > div  span:nth-child(3) {
+
+    color: #fff;
+    margin-right: 0px;
+
+}
+
+
+#shouhuo {
+margin-top: 10px;
+    border: 1px solid #ccc  ;
+
+}
+
+#shouhuo > p{
+    padding: 8px ;
+
+  background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc  ;
+
+}
+
+#shouhuo  > form {
+padding: 24px;
+}
+#shouhuo  > form> div{
+    padding: 8px;
+}
+
+#shouhuo  > form> div > span{
+  color: red;
+}
+
+#shouhuo  > form> div:nth-child(2) >input{
+    width: 360px;
+}
+
+#shouhuo button{
+
+    padding: 0 10px;
+    margin-left: 50px;
+    background-color: #1d7ad9;
+    color: #fff;
+    height: 36px;
+    border: 1px solid #1d7ad9;
+}
+

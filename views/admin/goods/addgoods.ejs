@@ -1,0 +1,270 @@
+
+
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>-.-</title>
+  <link href="/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="/lib/bootstrap_input/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="/lib/bootstrap_input/themes/explorer/theme.css" rel="stylesheet">
+  <link rel="stylesheet" href="/admin/style/backstage.css">
+
+
+</head>
+
+<body>
+<div class="head">
+  <div class="logo fl"><a href="#"></a></div>
+  <h3 class="head_text fr">电子商务后台管理系统</h3>
+</div>
+<div class="operation_user clearfix">
+
+  <div class="link fl"><a href="/admin">后台首页</a></div>
+  <%- include("../public/head-nav.ejs") %>
+    <div class="main">
+      <!--右侧内容-->
+      <div class="cont">
+        <div class="title">后台管理</div>
+
+
+        <div class="pad"  >
+
+          <form action="/admin/goods/addgoods" method="post"  enctype="multipart/form-data">
+            <div class="form-group">
+              <label for="goodsname">商品名：</label>
+              <input type="text" name="name" placeholder="商品名" id="goodsname"  autofocus="autofocus" class="form-control" >
+            </div>
+            <div class="form-group">
+              <label for="goodsprice">价格：</label>
+              <input type="number" name="price" placeholder="价格" id="goodsprice"   class="form-control" >
+            </div>
+            <div class="form-group">
+              <label for="goodskucun">库存：</label>
+              <input type="number" name="kucun" placeholder="库存" id="goodskucun"   class="form-control" >
+            </div>
+            <div class="form-group">
+              <label for="goodsmiaoshu">描述：</label>
+              <textarea class="form-control" rows="4" id="goodsmiaoshu" name="miaoshu"></textarea>
+
+            </div>
+            <div class="form-group">
+              <label>精美图片：</label>
+              <input id="imgjm" type="file" class="file"   accept="image" name="img" >
+            </div>
+
+            <div class="form-group">
+              <label >颜色  </label>
+              <!-- Button trigger modal -->
+              <button style="color: #0f0f0f"  type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                添加颜色
+              </button>
+              <button style="color: #0f0f0f" type="button" class="btn btn-primary btn-lg"  id="dele" >
+                删除所有颜色
+              </button>
+
+              <div class="checkbox" id="checkbox">
+
+              </div>
+            </div>
+            <div class="form-group">
+              <label >属性 </label>
+              <!-- Button trigger modal -->
+              <button style="color: #0f0f0f" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">
+                添加属性
+              </button>
+              <button style="color: #0f0f0f" type="button" class="btn btn-primary btn-lg"  id="dele1" >
+                删除所有属性
+              </button>
+              <div class="checkbox" id="checkbox1">
+
+              </div>
+            </div>
+
+
+
+            <div class="form-group">
+              <label>图片：</label>
+              <p style="color: red">*一次可以选择多张图片。 Ctrl +鼠标左键</p>
+              <input id="input-id" type="file" class="file" multiple  accept="image" name="img" >
+            </div>
+
+
+
+            <input type="hidden" value=<%=cid %> name="cid">
+            <button type="submit" class="btn btn-default">增加</button>
+          </form>
+
+
+
+
+        </div>
+
+      </div>
+    </div>
+  <!-- Modal颜色 -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">颜色添加</h4>
+        </div>
+        <div class="modal-body">
+
+          <label>颜色：</label><input id="colorText" type="text" placeholder="添加颜色">
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" id="close">Close</button>
+          <button type="button" class="btn btn-primary" id="addColor">添加</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel1">属性</h4>
+        </div>
+        <div class="modal-body">
+
+          <label>属性：</label><input id="colorText1" type="text" placeholder="添加属性">
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" id="close1">Close</button>
+          <button type="button" class="btn btn-primary" id="addColor1">添加</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal属性 -->
+  <!--左侧列表-->
+  <div class="menu">
+    <div class="cont">
+      <div class="title">管理员</div>
+      <ul class="mList">
+        <li>
+          <h3><span>+</span>管理员管理</h3>
+          <dl class="hiden">
+            <dd><a href="/admin/user/addadmin">添加管理员</a></dd>
+            <dd><a href="/admin/user/adminlist">管理员列表</a></dd>
+            <dd><a href="/admin/user/addrole">添加角色</a></dd>
+            <dd><a href="/admin/user/rolelist">角色列表</a></dd>
+          </dl>
+        </li>
+        <li>
+          <h3><span>+</span>商品管理</h3>
+          <dl class="hiden">
+            <dd><a href="/admin/goods/goodslist">商品管理</a></dd>
+            <dd><a href="/admin/goods/cgoods">商品分类管理</a></dd>
+          </dl>
+        </li>
+        <li>
+          <h3><span>+</span>订单管理</h3>
+          <dl class="hiden">
+            <dd><a href="#">订单修改</a></dd>
+            <dd><a href="#">订单又修改</a></dd>
+            <dd><a href="#">订单总是修改</a></dd>
+            <dd><a href="#">测试内容你看着改</a></dd>
+          </dl>
+        </li>
+
+
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<!--###############文件上传-->
+
+  <script src="/lib/jquery/jquery-3.2.1.js"></script>
+
+
+  <script src="/lib/bootstrap_input/js/fileinput.min.js"></script>
+
+  <script src="/lib/bootstrap/js/bootstrap.js"></script>
+  <script src="/lib/bootstrap_input/themes/explorer/theme.js"></script>
+
+  <script src="/lib/bootstrap_input/js/locales/zh.js"></script>
+
+  <script src="/admin/js/back.js"></script>
+</body>
+</html>
+
+
+      <script>
+          $("#input-id").fileinput({
+
+              language:"zh",//中文
+              showUpload:false, //不显示uplode
+              allowedFileExtensions: ['jpg', 'png', 'gif'], //支持的后缀名
+              initialPreviewAsData: true,
+          });
+          $("#imgjm").fileinput({
+
+              language:"zh",//中文
+              allowedFileExtensions: ['jpg', 'png', 'gif'], //支持的后缀名
+              initialPreviewAsData: true,
+          });
+
+
+
+          $("#addColor").click(function(){
+
+             var addColor= $("#colorText").val();
+             var $laber=    $("<label>" +
+                               "<input type='checkbox' name='color' value="+ addColor+" checked  class='hidden'> " +addColor+
+                              " </label>");
+               $("#checkbox").append($laber)
+               $("#colorText").val("");
+               $("#close").click()
+
+          })
+          $("#dele").click(function () {
+              $("#checkbox").empty();
+          })
+          $("#colorText").keydown(function (e) {
+
+              if( e.keyCode==13){
+                  $("#addColor").click()
+              }
+
+
+          })
+
+
+
+          $("#addColor1").click(function(){
+
+              var addColor= $("#colorText1").val();
+              var $laber=    $("<label>" +
+                  "<input type='checkbox' name='shuxing' value="+ addColor+" checked  class='hidden'> " +addColor+
+                  " </label>");
+              $("#checkbox1").append($laber)
+              $("#colorText1").val("");
+              $("#close1").click()
+
+          })
+          $("#dele1").click(function () {
+              $("#checkbox1").empty();
+          })
+          $("#colorText1").keydown(function (e) {
+
+              if( e.keyCode==13){
+                  $("#addColor1").click()
+              }
+
+
+          })
+
+  </script>
+
+
+
+
