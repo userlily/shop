@@ -9,10 +9,13 @@ var pool = require("../../util/mysqlConnectionPool")
  *
  */
 router.get('/', function(req, res, next) {
+    var name=  req.query.name.trim();
+    if(name==""){
+        return  res.json({})
+    }
+    var like= "%" +name + "%"
     pool.getConnection(function(err, connection) {
-
-       var name=  req.query.name.trim();
-       var like= "%" +name + "%"
+        
         // Use the connection
         connection.query("SELECT * FROM goods where name like ?",like,function (error, results, fields) {
 
