@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9fa6380-2b74-42fb-bfcc-506733295e96" name="Default" comment="newshop">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/wx/index.js" afterPath="$PROJECT_DIR$/routes/wx/index.js" />
-    </list>
+    <list default="true" id="c9fa6380-2b74-42fb-bfcc-506733295e96" name="Default" comment="newshop" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -307,7 +305,7 @@
       <workItem from="1506140918110" duration="2257000" />
       <workItem from="1506152433467" duration="3692000" />
       <workItem from="1506212906252" duration="653000" />
-      <workItem from="1506233109951" duration="2223000" />
+      <workItem from="1506233109951" duration="2336000" />
     </task>
     <task id="LOCAL-00001" summary="xiugai">
       <created>1506001651186</created>
@@ -369,7 +367,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67389000" />
+    <option name="totallyTimeSpent" value="67502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
