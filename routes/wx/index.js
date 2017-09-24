@@ -3,7 +3,7 @@ var router = express.Router();
 var login= require("./login");
 var aa= require("./aa")
 var tuijian= require("./tuijian")
-var serach= require("./search")
+var search= require("./search")
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'wx' });
@@ -11,6 +11,6 @@ router.get('/', function(req, res, next) {
 router.use('/login',login)
 router.use('/aa',aa)
 router.use('/tuijian',tuijian)
-router.use('/search',serach)
+router.use('/search',search)
 
 module.exports = router;
