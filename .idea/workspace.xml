@@ -81,8 +81,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/wx/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="468">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -307,7 +307,7 @@
       <workItem from="1506140918110" duration="2257000" />
       <workItem from="1506152433467" duration="3692000" />
       <workItem from="1506212906252" duration="653000" />
-      <workItem from="1506233109951" duration="2067000" />
+      <workItem from="1506233109951" duration="2154000" />
     </task>
     <task id="LOCAL-00001" summary="xiugai">
       <created>1506001651186</created>
@@ -369,7 +369,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67233000" />
+    <option name="totallyTimeSpent" value="67320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -783,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/wx/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="468">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding />
         </state>
       </provider>

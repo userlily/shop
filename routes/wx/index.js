@@ -11,6 +11,6 @@ router.get('/', function(req, res, next) {
 router.use('/login',login)
 router.use('/aa',aa)
 router.use('/tuijian',tuijian)
-router.use('/serach',serach)
+router.use('/search',serach)
 
 module.exports = router;
