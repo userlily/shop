@@ -4,7 +4,6 @@
     <list default="true" id="c9fa6380-2b74-42fb-bfcc-506733295e96" name="Default" comment="newshop">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/wx/index.js" afterPath="$PROJECT_DIR$/routes/wx/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/wx/search.js" afterPath="$PROJECT_DIR$/routes/wx/search.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,7 +40,7 @@
       <file leaf-file-name="tuijian.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/wx/tuijian.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
+            <state relative-caret-position="828">
               <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
               <folding />
             </state>
@@ -68,10 +67,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topclass.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="topclass.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/wx/topclass.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="485">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secondclass.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/wx/secondclass.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
               <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding />
             </state>
@@ -93,8 +102,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/wx/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="612">
+              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -103,18 +112,8 @@
       <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/wx/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1656">
+            <state relative-caret-position="737">
               <caret line="46" column="50" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="foot.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/public/foot.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -177,6 +176,8 @@
         <option value="$PROJECT_DIR$/config.json" />
         <option value="$PROJECT_DIR$/routes/wx/search.js" />
         <option value="$PROJECT_DIR$/routes/wx/topclass.js" />
+        <option value="$PROJECT_DIR$/routes/wx/goods.js" />
+        <option value="$PROJECT_DIR$/routes/wx/secondclass.js" />
         <option value="$PROJECT_DIR$/routes/wx/index.js" />
       </list>
     </option>
@@ -313,7 +314,7 @@
       <workItem from="1506152433467" duration="3692000" />
       <workItem from="1506212906252" duration="653000" />
       <workItem from="1506233109951" duration="3857000" />
-      <workItem from="1506325785888" duration="557000" />
+      <workItem from="1506325785888" duration="1556000" />
     </task>
     <task id="LOCAL-00001" summary="xiugai">
       <created>1506001651186</created>
@@ -375,7 +376,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69580000" />
+    <option name="totallyTimeSpent" value="70579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -425,13 +426,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/wx/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -713,14 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/wx/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="46" column="50" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/wx/aa.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -746,14 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/wx/tuijian.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/wx/search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -762,10 +740,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/wx/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="46" column="50" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/wx/tuijian.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/wx/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="612">
+          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -773,6 +767,14 @@
     <entry file="file://$PROJECT_DIR$/routes/wx/topclass.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/wx/secondclass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
           <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding />
         </state>

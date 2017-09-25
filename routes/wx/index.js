@@ -5,6 +5,7 @@ var aa= require("./aa")
 var tuijian= require("./tuijian")
 var search= require("./search")
 var topclass= require("./topclass")
+var secondclass= require("./secondclass")
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'wx' });
@@ -14,5 +15,6 @@ router.use('/aa',aa)
 router.use('/tuijian',tuijian)
 router.use('/search',search)
 router.use('/topclass',topclass)
+router.use('/secondclass',secondclass)
 
 module.exports = router;
