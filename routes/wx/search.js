@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
     }
     var like= "%" +name + "%"
     pool.getConnection(function(err, connection) {
-        
+
         // Use the connection
         connection.query("SELECT * FROM goods where name like ?",like,function (error, results, fields) {
 
